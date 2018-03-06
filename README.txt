@@ -1,5 +1,5 @@
 ## 简介
-1. 该项目来源于github [drcom](https://github.com/mchome/dogcom)
+1. 该项目来源于github [dogcom](https://github.com/mchome/dogcom)
 2. 解除了校园网多设备检测，可开热点，认证wifi
 3. 如认证WiFi,请换网线至wan口，登陆路由器后台开启DHCP服务
 4. 请使用前停止学校版drcom
