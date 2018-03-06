@@ -10,6 +10,7 @@ set /p account=ÇëÊäÈëÐ£Ô°ÍøÕËºÅ£º
 echo username= '%account%' >> dogcom.conf
 set /p passwd=ÇëÊäÈëÐ£Ô°ÍøÃÜÂë£º
 echo password= '%passwd%' >> dogcom.conf
+start /b dogcom -m dhcp -c dogcom.conf -e
 
 :2
 start /b dogcom -m dhcp -c dogcom.conf -e
