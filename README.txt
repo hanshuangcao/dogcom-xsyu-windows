@@ -1,20 +1,22 @@
-## ���
-1. ����Ŀ��Դ��github [dogcom](https://github.com/mchome/dogcom)
-2. �����У԰�����豸��⣬�ɿ��ȵ㣬��֤wifi
-3. ����֤WiFi,�뻻������wan�ڣ���½·������̨����DHCP����
-4. ��ʹ��ǰֹͣѧУ��drcom
-## �÷�������
-1. ˫��У԰���ͻ����ļ�����һ��ʹ�û���ʾ�����˺����� ������ȷ����ȷ
-------�������������ü��±���dogcom.conf�ļ����޸�username password
-2. Ĭ�Ͽͻ��˺�̨���� ������ֹ����cmd����taskkill /f /im dogcom.exe
+## 简介
+1. 该项目来源于github [dogcom](https://github.com/mchome/dogcom)
+2. 解除了校园网多设备检测，可开热点，认证wifi
+3. 如认证WiFi,请换网线至wan口，登陆路由器后台开启DHCP服务
+4. 请使用前停止学校版drcom
+## 用法简述：
+## 注意：
+### 首次使用请点击dogcom.exe
+1. 双击校园网客户端文件，第一次使用会提示输入账号密码 ！！！确保正确
+------如果输入错误请用记事本打开dogcom.conf文件，修改username password
+2. 默认客户端后台运行 如需中止请在cmd输入taskkill /f /im dogcom.exe
 
-3. ������������ʹ��cmd�ڵ�ǰĿ¼����dogcom -m dhcp -c ./dogcom.conf -v
-���ս�ͼ
-�޷��������github��issues����ַhttps://github.com/chenjiageng/dogcom-xsyu-windows
-4.Ĭ������֮�����أ����Ե��֮���޷�Ӧ����,�����������ؾ��ţ�û��ʱ��;���дGUIͼ�ν��棩����������������ȵ���������鱾������������
+3. 出现问题请在使用cmd在当前目录运行dogcom -m dhcp -c ./dogcom.conf -v
+拍照截图
+无法解决请在github开issues，地址https://github.com/chenjiageng/dogcom-xsyu-windows
+4.默认运行之后隐藏，所以点击之后无反应正常,，接下来不必惊慌（没有时间和精力写GUI图形界面），打开浏览器，开启热点你就能体验本软件的魅力了
 
-## ˵��
-1. ������֮�����У԰����֤Э��������������ά��
-2. û������GUI�Ĵ��㡣
-3. �Ƽ���������ѧ��תΪLinux�û�
-4. �����ϲ������Ŀ�� start
+## 说明
+1. 本软件之后除非校园网认证协议升级，否则不在维护
+2. 没有增加GUI的打算。
+3. 推荐计算机相关学生转为Linux用户
+4. 如果你喜欢该项目请 start
