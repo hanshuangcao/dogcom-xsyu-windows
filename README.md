@@ -5,7 +5,7 @@
 4. 请使用前停止学校版drcom
 ## 用法简述：
 ## 注意：
-### 首次使用请点击dogcom.exe
+### 首次使用请点击dogcom.bat
 1. 双击校园网客户端文件，第一次使用会提示输入账号密码 ！！！确保正确
 ------如果输入错误请用记事本打开dogcom.conf文件，修改username password
 2. 默认客户端后台运行 如需中止请在cmd输入taskkill /f /im dogcom.exe
