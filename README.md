@@ -13,7 +13,7 @@
 
 3. 出现问题请在使用cmd在当前目录运行dogcom -m dhcp -c ./dogcom.conf -v
 拍照截图
-无法解决请在github开issues，地址https://github.com/chenjiageng/dogcom-xsyu-windows
+
 4. 默认运行之后隐藏，所以点击之后无反应正常,，接下来不必惊慌（没有时间和精力写GUI图形界面），打开浏览器，开启热点你就能体验本软件的魅力了
 
 ## 说明
@@ -35,3 +35,6 @@
 
 登陆成功标志，请打开 http://192.168.255.249
 看登陆状态
+
+# 项目冻结
+ 不提供支持和帮助
